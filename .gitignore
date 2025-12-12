@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Database
+schedule.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# SSL Certificates
+nginx/ssl/
+*.key
+*.crt
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# GitHub
+.github/
